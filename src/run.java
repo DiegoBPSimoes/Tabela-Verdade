@@ -28,7 +28,7 @@ public class run {
 
 		}
 		System.out.println("imprimindo tabela" );
-		System.out.println(v1.nome+"|"+v2.nome +"|"+v1.nome+"U"+v2.nome+"|"+v1.nome+"^"+v2.nome+"|"+v1.nome+"->"+v2.nome+"|"+v1.nome+"<>"+v2.nome);
+		System.out.println(v1.nome+"\t"+v2.nome +"\t"+v1.nome+"U"+v2.nome+"\t"+v1.nome+"^"+v2.nome+"\t"+v1.nome+"->"+v2.nome+"\t"+v1.nome+"<>"+v2.nome);
 		
 		for (int i = 0; i < 4; i++) {
 			boolean implicacao=true, bicondicional=true;
@@ -42,7 +42,7 @@ public class run {
 			}else {
 				bicondicional=false;
 			}
-			System.out.println(v2.valores[i]+"|"+ v1.valores[i]+"|"+(v1.valores[i]||v2.valores[i])+"|"+(v1.valores[i]&&v2.valores[i])+"|"+implicacao+"|"+bicondicional);
+			System.out.println(v2.valores[i]+"\t"+ v1.valores[i]+"\t"+(v1.valores[i]||v2.valores[i])+"\t"+(v1.valores[i]&&v2.valores[i])+"\t"+implicacao+"\t"+bicondicional);
 
 		}
 		sc.close();
